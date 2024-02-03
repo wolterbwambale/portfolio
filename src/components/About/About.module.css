@@ -1,0 +1,130 @@
+@import '../../vars.css';
+
+.container{
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.7);
+    padding: 73px;
+    border-radius: 17px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    font-size: 35px;
+    color: var(--color-text);
+    font-weight: 900;
+    letter-spacing: 1.7px;
+    font-family: var(--font-roboto);
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutMaainImg{
+    width: 35%;
+    z-index: 1;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+.aboutImage{
+    width: 10%;
+}
+
+.aboutItems{
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    list-style: none;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42)0%, rgba(255 , 255, 255, 0)100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.aboutItem:hover{
+    background-size: 100% 100%;
+   
+}
+
+.aboutItem h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--font-roboto);
+    margin-left: 20px;
+}
+
+.aboutItem p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 830px)
+{
+    .container{
+        background-color: transparent;
+        margin-top: 35px;
+        margin-left: 0;
+        margin-right:0 ;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aboutMaainImg{
+        display: none;
+    }
+
+    .aboutItems{
+        margin-top: 28px;
+    }
+
+    .aboutItem{
+        padding-left: 0;
+        padding-left: 0;
+    }
+
+    .aboutItem h3{
+        font-size: 24px;
+    }
+
+    .aboutItem p{
+        font-size: 18px;
+    }
+}
