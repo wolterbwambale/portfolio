@@ -1,7 +1,7 @@
 import React from 'react'
-import  styele from './Experience.module.css'
-import skills from '../../data/skills'
-import { getImageUrl } from '../../utils'
+import  styele from './Experience.module.css';
+import skills from '../../data/skills';
+import { getImageUrl } from '../../utils';
 
 const Experience = () => {
   return (
@@ -9,7 +9,7 @@ const Experience = () => {
         <h1>Experience</h1>
         <div>
             <div>{skills.map((skill, id) =>{
-                return(
+                return(                                                                                                                            
                    <div key={id}>
                     <div>
                     <img src={getImageUrl(skill.imgscr)} alt={skill.title} />
