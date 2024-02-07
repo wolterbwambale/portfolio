@@ -1,5 +1,5 @@
 import React from 'react'
-import  styele from './Experience.module.css';
+import  styles from './Experience.module.css';
 import skills from '../../data/skills';
 import { getImageUrl } from '../../utils';
 
@@ -12,7 +12,7 @@ const Experience = () => {
                 return(                                                                                                                            
                    <div key={id}>
                     <div>
-                    <img src={getImageUrl(skill.imgscr)} alt={skill.title} />
+                    <img className={styles.img_experience} src={getImageUrl(skill.imgscr)} alt={skill.title} />
                     </div> 
                     <p>{skill.title}</p>
                   </div>
