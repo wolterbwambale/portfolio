@@ -1,0 +1,30 @@
+[
+    {
+        "ttile":"HTML",
+        "imgscr":"skills/html-5.png"
+    },
+    {
+        "title":"CSS",
+        "imgscr":"skills/css-3.png"
+    },
+    {
+        "title":"javascript",
+        "imgscr":"javascript.png"
+    },
+    {
+        "title":"React",
+        "imgscr":"skils/react.png"
+    },
+    {
+        "title":"Node",
+        "imgscr":"skills/nodejs.png"
+    },
+    {
+        "title":"Postgresql",
+        "imgscr":"skills/postgresql.png"
+    },
+    {
+        "title":"Figma",
+        "imgscr":"skills/figma.png"
+    }
+]
