@@ -5,7 +5,7 @@
         "location":"Bangalore",
         "start_date":"2018",
         "end_date":"2020",
-        "experience":["worked various website",
+        "experiences":["worked various website",
         "worked on various projects and technologies"],
         "imagesrc":"skills/figma.png"
     },
@@ -15,7 +15,7 @@
         "location":"Bangalore",
         "start_date":"2018",
         "end_date":"2020",
-        "experience":["worked various website",
+        "experiences":["worked various website",
         "worked on various projects and technologies"],
         "imagesrc":"skills/figma.png"                                                                                                   
     },
@@ -25,6 +25,7 @@
         "location":"Bangalore",
         "start_date":"2018",
         "end_date":"2020",
-        "description":"Worked on various projects and technologies"
+        "imagesrc":"skills/figma.png",
+        "experiences":["worked various website","worked on various projects and technologies"]
     }
 ]
