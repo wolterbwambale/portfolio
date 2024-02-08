@@ -87,9 +87,16 @@
     color: var(--color-text);
 }
 
+.historyDetails p{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--color-text);
+}
+
 .historyDetails ul{
     list-style-position: inside;
     margin-top: 6px;
     font-size: 25px;
     list-style-type: disc;
+    margin-left: 17px;
 }
