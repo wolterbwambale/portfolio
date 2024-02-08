@@ -1,6 +1,6 @@
 [
     {
-        "ttile":"HTML",
+        "title":"HTML",
         "imgscr":"skills/html-5.png"
     },
     {
@@ -8,12 +8,8 @@
         "imgscr":"skills/css-3.png"
     },
     {
-        "title":"javascript",
-        "imgscr":"javascript.png"
-    },
-    {
-        "title":"React",
-        "imgscr":"skils/react.png"
+        "title":"CSS",
+        "imgscr":"skills/css-3.png"
     },
     {
         "title":"Node",
