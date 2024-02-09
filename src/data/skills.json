@@ -22,5 +22,17 @@
     {
         "title":"Figma",
         "imgscr":"skills/figma.png"
+    },
+    {
+        "title":"Node",
+        "imgscr":"skills/nodejs.png"
+    },
+    {
+        "title":"Postgresql",
+        "imgscr":"skills/postgresql.png"
+    },
+    {
+        "title":"Figma",
+        "imgscr":"skills/figma.png"
     }
 ]

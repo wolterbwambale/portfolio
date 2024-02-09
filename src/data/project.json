@@ -1,0 +1,26 @@
+[
+    {
+        "title":"project A",
+        "imagesrc":"projects/project1.png",
+        "description":"This is the project to learn the latest",
+        "skills":["React","Express","Node","Saaa"],
+        "demo":"https://google.com",
+        "source":"https://github..com"
+    },
+    {
+        "title":"project A",
+        "imagesrc":"projects/project.png",
+        "description":"This is the project to learn the latest",
+        "skills":["React","Express","Node","Sass"],
+        "demo":"https://google.com",
+        "source":"https://github..com"
+    },
+    {
+        "title":"project A",
+        "imagesrc":"projects/project.png",
+        "description":"This is the project to learn the latest",
+        "skills":["React","Express","Node","Saaa"],
+        "demo":"https://google.com",
+        "source":"https://github..com"
+    }
+]

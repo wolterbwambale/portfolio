@@ -1,0 +1,7 @@
+@import '../../vars.css';
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #2c3e50 100%);
+}
