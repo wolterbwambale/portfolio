@@ -12,7 +12,7 @@ const Experience = () => {
         <div className={styles.skills}>
           {skills.map((skill, id) => {
             return (
-              <div key={id} className={styles.skills}>
+              <div key={id} className={styles.skill}>
                 <div className={styles.skillImgcontainer}>
                   <img
                     className={styles.img_experience}
@@ -43,7 +43,7 @@ const Experience = () => {
             );
           })}
         </ul>
-      </div>
+        </div>
     </section>
   );
 };
