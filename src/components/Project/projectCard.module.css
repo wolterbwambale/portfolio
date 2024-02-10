@@ -9,6 +9,12 @@
     max-width: 345px;
 }
 
+.container .image{
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
 .title{
     font-size: 25px;
     font-weight: 700;
@@ -60,4 +66,9 @@
     padding: 1px 22px;
     background: var(--color-secondary);
 
+}
+
+.link:hover{
+    background: var(--color-dark);
+    color: var(--color-text);
 }
