@@ -8,31 +8,31 @@
         "imgscr":"skills/css-3.png"
     },
     {
-        "title":"CSS",
-        "imgscr":"skills/css-3.png"
+        "title":"Js",
+        "imgscr":"skills/js.png"
+    },
+    {
+        "title":"React",
+        "imgscr":"skills/physics.png"
+    },
+    {
+        "title":"Sass",
+        "imgscr":"skills/sass.png"
+    },
+    {
+        "title":"Figma",
+        "imgscr":"skills/figma.png"
     },
     {
         "title":"Node",
         "imgscr":"skills/nodejs.png"
     },
     {
-        "title":"Postgresql",
+        "title":"Ruby",
+        "imgscr":"skills/ruby.png"
+    },
+    {
+        "title":"postgresql",
         "imgscr":"skills/postgresql.png"
-    },
-    {
-        "title":"Figma",
-        "imgscr":"skills/figma.png"
-    },
-    {
-        "title":"Node",
-        "imgscr":"skills/nodejs.png"
-    },
-    {
-        "title":"Postgresql",
-        "imgscr":"skills/postgresql.png"
-    },
-    {
-        "title":"Figma",
-        "imgscr":"skills/figma.png"
     }
 ]
