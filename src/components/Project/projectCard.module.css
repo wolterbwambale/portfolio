@@ -1,0 +1,63 @@
+@import '../../vars.css';
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #2c3e50 100%);
+    box-shadow: 0px 16px 14px rgba(0, 0, 0, 0.25);
+    padding: 18px 24px;
+    max-width: 345px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
+
+.descreption{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.skill{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text);
+    padding: 4px 16px;
+    border-radius: 100px;
+    background: var(--color-dark);
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
+}
+.link{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 1px 22px;
+    background: var(--color-secondary);
+
+}

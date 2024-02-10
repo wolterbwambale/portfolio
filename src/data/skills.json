@@ -1,6 +1,6 @@
 [
     {
-        "ttile":"HTML",
+        "title":"HTML",
         "imgscr":"skills/html-5.png"
     },
     {
@@ -8,23 +8,31 @@
         "imgscr":"skills/css-3.png"
     },
     {
-        "title":"javascript",
-        "imgscr":"javascript.png"
+        "title":"Js",
+        "imgscr":"skills/js.png"
     },
     {
         "title":"React",
-        "imgscr":"skils/react.png"
+        "imgscr":"skills/physics.png"
+    },
+    {
+        "title":"Sass",
+        "imgscr":"skills/sass.png"
+    },
+    {
+        "title":"Figma",
+        "imgscr":"skills/figma.png"
     },
     {
         "title":"Node",
         "imgscr":"skills/nodejs.png"
     },
     {
-        "title":"Postgresql",
-        "imgscr":"skills/postgresql.png"
+        "title":"Ruby",
+        "imgscr":"skills/ruby.png"
     },
     {
-        "title":"Figma",
-        "imgscr":"skills/figma.png"
+        "title":"postgresql",
+        "imgscr":"skills/postgresql.png"
     }
 ]

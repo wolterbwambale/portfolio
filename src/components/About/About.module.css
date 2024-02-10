@@ -130,6 +130,6 @@
     }
 
     .aboutImage{
-        width: 10%;
+        display: none;
     }
 }
