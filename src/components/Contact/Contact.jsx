@@ -4,23 +4,23 @@ import { getImageUrl } from "../../utils";
 
 const Contact = () => {
   return (
-    <footer>
-      <div>
-        <h1>Contact</h1>
+    <footer className={styles.container} id="contact">
+      <div className={styles.text}>
+        <h2>Contact</h2>
         <p>Feel free to reachout to me</p>
       </div>
-      <ul>
-        <li>
+      <ul className={styles.links}>
+        <li className={styles.link}>
           <img src={getImageUrl("contact/mail.png")} alt="" />
           <a href="mailto:benplaan1@gmail.com">benplaan1@gmail.com</a>
         </li>
-        <li>
-          <img src={getImageUrl("contact/linkedin.png")} alt="" />
-          <a href="mailto:benplaan1@gmail.com">benplaan1@gmail.com</a>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/linkedin.png")} alt="linkedin" />
+          <a href="https://www.linkedin.com/in/bwambale-benny-wolter/">https://www.linkedin.com/in/bwambale-benny-wolter</a>
         </li>
-        <li>
-          <img src={getImageUrl("contact/github.png")} alt="" />
-          <a href="mailto:benplaan1@gmail.com">benplaan1@gmail.com</a>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/github.png")} alt="github" />
+          <a href="https://github.com/wolterbwambale">github.com/wolterbwambale</a>
         </li>
       </ul>
     </footer>

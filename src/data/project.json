@@ -1,18 +1,18 @@
 [
     {
-        "title":"project A",
-        "imagesrc":"projects/project1.png",
-        "description":"This is the project to learn the latest",
-        "skills":["React","Express","Node","Saaa"],
-        "demo":"https://google.com",
-        "source":"https://github..com"
+        "title":"Budget App",
+        "imagesrc":"projects/budgeApp.PNG",
+        "description":"Budget App web application where you can manage your budget",
+        "skills":["html","postgresql","Ruby on Rails","Sass"],
+        "demo":"https://budget-kvg1.onrender.com/",
+        "source":"https://github.com/wolterbwambale/Budget-app"
     },
     {
         "title":"project A",
         "imagesrc":"projects/project.png",
         "description":"This is the project to learn the latest",
         "skills":["React","Express","Node","Sass"],
-        "demo":"https://google.com",
+        "demo":"https://wol-snn6.onrender.com/",
         "source":"https://github..com"
     },
     {
