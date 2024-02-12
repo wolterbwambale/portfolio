@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./projectCard.module.css"
 import { getImageUrl } from '../../utils';
 

@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Experience.module.css";
 import skills from "../../data/skills";
 import data from "../../data/data";
