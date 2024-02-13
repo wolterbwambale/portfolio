@@ -3,7 +3,7 @@
 .container {
   position: relative;
   background-color: rgba(12, 12, 12, 0.7);
-  padding: 73px;
+  padding: 50px;
   border-radius: 17px;
   margin-top: 129px;
   z-index: 1;
@@ -36,16 +36,13 @@
 }
 
 @keyframes floating {
-  0% {
+  0%,
+  100% {
     transform: translate(0, 0);
   }
 
   50% {
     transform: translate(0, 10px);
-  }
-
-  100% {
-    transform: translate(0, -0);
   }
 }
 
@@ -57,7 +54,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 29px;
 }
 
 .aboutItem {
@@ -119,7 +116,7 @@
 
   .aboutItem {
     padding-left: 0;
-    padding-left: 0;
+    padding-right: 0;
   }
 
   .aboutItem h3 {
