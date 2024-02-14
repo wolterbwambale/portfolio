@@ -13,11 +13,11 @@ const Hero = () => {
           achieve concrete goals on a strict deadline. Strong skills include React, Redux,
           JavaScript, Ruby on Rails, Figma, and Animation Libraries!
         </p>
-        <a href="mailto:myemail@gmail.com" className={styles.contactBtn}>
-          Contact me
+        <a href="https://docs.google.com/document/d/1CTjuidJ9ResAIwlahQgDF9WGGXLrdkzyOMv-4OlRnOo/edit?usp=sharing" className={styles.contactBtn}>
+         Resume
         </a>
       </div>
-      <img src={getImageUrl('hero/worker.png')} alt="worker" className={styles.heroImg} />
+      <img src={getImageUrl('hero/worker2.png')} alt="worker" className={styles.heroImg} />
       <div className={styles.topBlur} />
       <div className={styles.buttomBlur} />
     </section>

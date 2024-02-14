@@ -19,12 +19,33 @@
   margin-top: 30px;
   display: flex;
   flex-direction: row;
-
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   gap: 20px;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.cardbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 13px 16px;
+  font-size: 20px;
+  color: var(--color-text);
+  background: var(--color-primary);
+
+  /* outline: none; */
+  border: none;
+  border-radius: 100px;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+.cardbtn:hover {
+  background-color: var(--color-dark);
+  border: 2px solid var(--color-text);
 }
 
 @media screen and (max-width: 830px) {
