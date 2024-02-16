@@ -162,14 +162,18 @@
 
   .title {
     font-size: 50px;
+    flex-wrap: wrap;
   }
 
   .second_title {
     font-size: 30px;
+
   }
 
   .description {
+    display: flex;
     font-size: 20px;
     font-family: var(--font-roboto);
+    flex-wrap: wrap;
   }
 }

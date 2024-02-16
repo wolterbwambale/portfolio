@@ -11,7 +11,7 @@ const Project = () => {
 
   return (
     <section className={styles.container} id="project">
-      <h1 className={styles.title}>Projects</h1>
+      <h1 className={styles.title}>Recent Projects</h1>
       <div className={styles.project}>
           {projects.slice(0,Visible).map((project, id) => (
             <ProjectCard key={id} project={project} />

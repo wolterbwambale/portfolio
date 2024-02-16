@@ -5,17 +5,26 @@
         "description":"The Ruby on Rails capstone project is about building a mobile web application where you can manage your budget:",
         "language":"Languages",
         "skills":["Ruby 64.0%","HTML 27.7%","CSS 3.5%","Batchfile 3.3%","JavaScript 1.5%"],
-        "demo":"https://github.com/wolterbwambale/Budget-app/archive/refs/heads/dev.zip",
+        "demo":"https://budget-kvg1.onrender.com/",
         "source":"https://github.com/wolterbwambale/Budget-app"
     },
     {
         "title":"Math Magicine App",
-        "imagesrc":"projects/project.png",
+        "imagesrc":"projects/math.PNG",
         "description":"This is a simple calculator project with the UI calculator design and functionality and also a quote generator using an external API. ",
         "language":"Languages",
         "skills":["JavaScript 86.4%","CSS 7.4%","HTML 6.2%"],
-        "demo":"https://github.com/wolterbwambale/math-magician-app/archive/refs/heads/dev.zip",
+        "demo":" math-magician-v0h1.onrender.com/",
         "source":"https://github.com/wolterbwambale/math-magician-app"
+    },
+    {
+        "title":"Awesome Books",
+        "imagesrc":"projects/book.PNG",
+        "description":"This is a project that describes how a user can add a book to a list either to read it later or to list it as complete.",
+        "language":"Languages",
+        "skills":["JavaScript 40.5%"," CSS 32.8%"," HTML 26.7%","Saaa"],
+        "demo":"https://wolterbwambale.github.io/Awesome-books-ES6/",
+        "source":"https://github.com/wolterbwambale/booking-appointment-capstone_frontend"
     },
     {
         "title":"Doctor Appointment",
@@ -32,7 +41,7 @@
         "description":"metric-webapp-foreign currency is an application that fetches foreign currency Data from an API and displays it on the home page. ",
         "language":"Languages",
         "skills":["JavaScript 74.9%","CSS 15.0%","HTML 10.1%"],
-        "demo":"https://github.com/wolterbwambale/metrics-webapp-capstone/archive/refs/heads/development.zip",
+        "demo":"https://wol-snn6.onrender.com/",
         "source":"https://github.com/wolterbwambale/metrics-webapp-capstone"
     },
     {
@@ -54,29 +63,12 @@
         "source":"https://github.com/wolterbwambale/oop-schoo-library"
     },
     {
-        "title":"To do list",
-        "imagesrc":"projects/project.png",
-        "description":"This is a website project about a musical concert event.it is built dynamically with pages linked from the main page using Javascript.",
-        "language":"Languages",
-        "skills":"https://github.com/wolterbwambale/To-do-ist/archive/refs/heads/master.zip",
-        "source":"https://github.com/wolterbwambale/To-do-ist"
-    },
-    {
-        "title":"blogApp ",
+        "title":"blogApp",
         "imagesrc":"projects/project.png",
         "description":"This is a project that describes how a user can add a book to a list either to read it later or to list it as complete",
         "language":"Languages",
         "skills":["JavaScript 40.5%","CSS 32.8%"," HTML 26.7%"],
         "demo":"https://github.com/wolterbwambale/blogApp/archive/refs/heads/dev.zip",
         "source":"https://github.com/wolterbwambale/blogApp"
-    },
-    {
-        "title":"schoo-library",
-        "imagesrc":"projects/project.png",
-        "description":"TA school library application used to record library transactions and records involving the ruby programming language and command line interface Navigation",
-        "language":"Languages",
-        "skills":["Ruby 100.0%"],
-        "demo":"https://github.com/wolterbwambale/oop-schoo-library/archive/refs/heads/dev.zip",
-        "source":"https://github.com/wolterbwambale/oop-schoo-library"
-    }
+    }  
 ]

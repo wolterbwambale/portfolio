@@ -6,3 +6,24 @@
   height: 100%;
   overflow: hidden;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#a3b6f9, var(--color-primary));
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(var(--color-primary), #e6e6fa);
+}

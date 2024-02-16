@@ -5,6 +5,19 @@
   font-family: "outfit", Arial, Helvetica, sans-serif;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{
+  width: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background: blue;
+}
+
+::-webkit-slider-thumb{
+  background: linear-gradient(red, yellow);
+}
+ */

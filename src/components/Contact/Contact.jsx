@@ -7,7 +7,7 @@ const Contact = () => {
       <div className={styles.text}>
         <p></p>
         <h2>Get In Touch</h2>
-        <p>Feel free to reachout to me</p>
+        <p>Feel free to reach out to me</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
