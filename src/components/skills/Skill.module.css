@@ -55,6 +55,7 @@ button:hover {
   margin: 10px 0;
   font-size: 20px;
   padding-left: 15px;
+  color: var(--color-text);
 }
 
 .skillsContent p::before {

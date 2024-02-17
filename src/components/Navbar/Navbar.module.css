@@ -3,7 +3,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 30px;
   padding-right: 30px;
   padding-left: 30px;
@@ -28,7 +28,7 @@
 
 .menuItem {
   display: flex;
-  gap: 47px;
+  gap: 20px;
   list-style: none;
 }
 
