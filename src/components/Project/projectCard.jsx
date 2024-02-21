@@ -1,27 +1,25 @@
-import React from "react";
-import styles from "./projectCard.module.css"
+/* eslint-disable */
+import styles from "./projectCard.module.css";
 import { getImageUrl } from '../../utils';
 
-const projectCard = ({project:{imagesrc,title,description,skills,demo,source}}) => {
+const ProjectCard = ({ project: { imagesrc,title, description,language, skills, demo, source } }) => {
   return (
     <div className={styles.container}>
-      <img
-        src={getImageUrl(imagesrc)}
-        alt={`image of ${title}` } className={styles.image}
-      />
+      <img   className={styles.Cardimg} src={getImageUrl(imagesrc)} alt="" />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
-      <ul className={styles.skills}> 
-        {skills.map((skill) => {
-          return <li className={styles.skill}>{skill}</li>;
-        })}
+      <h4 className={styles.lang}>{language}</h4>
+      <ul className={styles.skills}>
+        {skills.map((skill, index) => (
+          <li key={index} className={styles.skill}>{skill}</li>
+        ))}
       </ul>
       <div className={styles.links}>
         <a href={demo} className={styles.link}>Demo</a>
-        <a href={source} className={styles.link}>source</a>
+        <a href={source} className={styles.link}>Repo</a>
       </div>
     </div>
   );
 };
 
-export default projectCard;
+export default ProjectCard;
