@@ -1,0 +1,31 @@
+[
+    {
+        "role":"frontend developer",
+        "company":"Vkonnect",
+        "location":"Bangalore",
+        "start_date":"2018",
+        "end_date":"2020",
+        "experiences":["worked various website",
+        "worked on various projects and technologies"],
+        "imagesrc":"skills/user-interface.png"
+    },
+    {
+        "role":"software developer",
+        "company":"IBM",
+        "location":"Bangalore",
+        "start_date":"2018",
+        "end_date":"2020",
+        "experiences":["worked various website",
+        "worked on various projects and technologies"],
+        "imagesrc":"skills/figma.png"                                                                                                   
+    },
+    {
+        "role":"software developer",
+        "company":"IBM",
+        "location":"Bangalore",
+        "start_date":"2018",
+        "end_date":"2020",
+        "imagesrc":"skills/figma.png",
+        "experiences":["worked various website","worked on various projects and technologies"]
+    }
+]
